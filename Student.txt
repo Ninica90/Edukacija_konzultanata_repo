@@ -1,4 +1,3 @@
-SELECT 
-PunoIme = Ime + ' ' + Prezime, Adresa = a.Ulica + ' ' + a.KucniBroj, NazivFakulteta = f.Naziv
+master
 FROM Omega.Student s
 LEFT JOIN Omega.Adresa a ON a.ID = s.ID
